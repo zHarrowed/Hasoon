@@ -1,0 +1,2 @@
+rails: bin/rails server -b $RAILS_HOST -p $RAILS_PORT
+sidekiq: sidekiq
