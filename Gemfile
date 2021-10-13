@@ -22,7 +22,12 @@ gem 'graphiql-rails'
 gem 'pry', '~> 0.13.1'
 
 gem 'sidekiq', '~> 6.2.2'
-gem "sidekiq-cron"
+gem 'sidekiq-cron'
+
+gem 'http'
+gem 'nokogiri'
+
+gem 'strong_migrations'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
